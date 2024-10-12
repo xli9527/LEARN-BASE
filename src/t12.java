@@ -3,7 +3,7 @@ public class t12 {
 
 
     public void setNum(){
-        this.num = 114514;
+        num = 114514;
     }
 
     public int getNum(){
