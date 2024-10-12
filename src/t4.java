@@ -14,6 +14,7 @@ public class t4 {
                 System.out.print("*");
             }
             System.out.println();
+//            打印菱形
         }
     }
 }

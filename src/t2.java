@@ -8,4 +8,5 @@ public class t2 {
         }
 
     }
+//foreach遍历
 }

@@ -4,4 +4,5 @@ public class t3 {
             System.out.println("the number form t2:"+ i);
         }
     }
+//跨类foreach
 }
