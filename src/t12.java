@@ -1,4 +1,4 @@
-public class t22 {
+public class t12 {
     private int num;
 
 
