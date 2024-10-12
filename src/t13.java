@@ -19,5 +19,5 @@ public class t13 {
         t13 tt =new t13();
         System.out.println(tt.area());
     }
-//    输出
+//    输出数据
 }
