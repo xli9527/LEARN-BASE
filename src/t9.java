@@ -22,5 +22,6 @@ public class t9 {
         for (int i : arr2) {
             System.out.print(i + " ");
         }
+//        自定义二维数组
     }
 }

@@ -5,5 +5,6 @@ public class t7 {
         Date date = new Date();
         String day = String.format("%tF",date);
         System.out.println(day);
+//      格式化字符串
     }
 }
