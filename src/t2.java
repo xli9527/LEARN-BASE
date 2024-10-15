@@ -8,5 +8,5 @@ public class t2 {
         }
 
     }
-//  foreach遍历
+//  foreach遍历 简写num.for
 }
