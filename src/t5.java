@@ -14,6 +14,6 @@ public class t5 {
             count++;
         }
         System.out.println(sum);
-//      阶乘相加取平均数
+//      阶乘相加取平均数 （有误，当时脑袋宕机了，有空再改）
     }
 }
