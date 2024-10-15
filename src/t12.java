@@ -10,6 +10,6 @@ public class t12 {
         setNum();
         return  this.num;
     }
-
+//  同t10
 
 }

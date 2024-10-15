@@ -19,6 +19,7 @@ public class t10 {
     public t10 getbook(){
         return this;
     }
+//    java从入门到精通p148.t1
 
 }
 
