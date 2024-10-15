@@ -12,7 +12,7 @@ public class t8 {
             boolean temp = true;
 
             String str = scan.nextLine();
-            String []num = str.split(" ");  //切割
+            String []num = str.split(" ");  //切割长宽
 
             for (String s : num) {
 
@@ -45,6 +45,7 @@ public class t8 {
                 enter++;
                 if (enter % height==0) {
                     System.out.println();
+//                    输出
                 }
             }
         }
