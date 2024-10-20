@@ -2,7 +2,7 @@ package cxsj2023;
 
 import java.util.Scanner;
 
-public class Main {
+public class Q7 {
     public static void main(String[] args) {
         int time=0;
         int freechair=0;
