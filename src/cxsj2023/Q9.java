@@ -2,7 +2,7 @@ package cxsj2023;
 
 import java.util.Scanner;
 
-public class Main {
+public class Q9 {
     public static void main(String[] args) {
         Scanner scan=new Scanner(System.in);
         if (scan.hasNext()){
