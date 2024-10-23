@@ -1,41 +1,42 @@
 package cxsj2023;
 
-import java.util.Objects;
 import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        int time;
-        int count=0;
-        Scanner scan = new Scanner(System.in);
-        if (scan.hasNext()) {
-            time=scan.nextInt();
-            for (int i = 0; i < time; i++) {
-                String people[] = new String[scan.nextInt()];
-                for (int j = 0; j < people.length; j++) {
-                    String temp=scan.next();
-                    if (Objects.equals(temp, "C")){
-                        people[j]="A";
-                    }else{
-                        people[j]=temp;
-                    }
-                }
-                for (int j = 0; j < people.length-1; j++) {
-                    if(Objects.equals(people[i], "A")){
-                        for (int k = j; k < people.length-1; k++) {
-                            people[k]=people[k+1];
-                        }
-                        count++;
-                        people[people.length-count]="A";
-                    }
-                }
-                for (String person : people) {
-                    System.out.print(person + " ");
+        Scanner scanner=new Scanner(System.in);
+        int t= scanner.nextInt();
+
+        while( t > 0 ){
+            int n= scanner.nextInt();
+            int num = 0;
+            int f = 0;
+            scanner.nextLine();
+            String chars =scanner.nextLine();
+            for (int i = 0; i < n; i++) {
+                char ch = chars.charAt(i*2);
+                if (ch=='C'){
+                    num++;
+                }  else {
+                   if (f > 0){
+                       System.out.print(" ");
+                   } else {
+                       f++;
+                   }
+                   System.out.print(ch);
                 }
             }
-
-
+            for (int i = 0; i < num ; i++) {
+                if(f > 0){
+                    System.out.print(" ");
+                } else {
+                    f++;
+                }
+                System.out.print("A");
+            }
+            System.out.println();
+            t--;
         }
-        scan.close();
+        scanner.close();
     }
 }
