@@ -1,8 +1,8 @@
-package cxsj2022_2023;
+package yuekao11_3;
 
 import java.util.Scanner;
 
-public class Main {
+public class Q2 {
 
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
